@@ -319,7 +319,7 @@ Class | Method | HTTP request | Description
 
 
 Authentication schemes defined for the API:
-### Secret Live Key
+### secretLiveKey
 
 - **Type**: HTTP Bearer token authentication
 
@@ -330,7 +330,7 @@ auth := context.WithValue(context.Background(), sw.ContextAccessToken, "BEARER_T
 r, err := client.Service.Operation(auth, args)
 ```
 
-### Secret Test Key
+### secretTestKey
 
 - **Type**: HTTP Bearer token authentication
 
@@ -341,7 +341,7 @@ auth := context.WithValue(context.Background(), sw.ContextAccessToken, "BEARER_T
 r, err := client.Service.Operation(auth, args)
 ```
 
-### Secret User Key
+### secretUserKey
 
 - **Type**: HTTP Bearer token authentication
 

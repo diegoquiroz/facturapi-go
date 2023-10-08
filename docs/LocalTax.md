@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Rate** | **float32** | Tasa del impuesto en fracción decimal. | 
-**Base** | Pointer to **float32** | Base del impuesto | [optional] [default to 100% del subtotal]
+**Base** | Pointer to **float32** | Base del impuesto. Valor: 100% del subtotal. | [optional] 
 **Type** | **string** | Nombre del impuesto. Texto libre. | 
 **Withholding** | Pointer to **bool** | Indica si se trata de un impuesto retenido (&#x60;true&#x60;), o un impuesto trasladado (&#x60;false&#x60;) | [optional] [default to false]
 

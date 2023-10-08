@@ -32,8 +32,6 @@ type IepsTax struct {
 func NewIepsTax(rate float32) *IepsTax {
 	this := IepsTax{}
 	this.Rate = rate
-	var base float32 = 100% del subtotal
-	this.Base = &base
 	var type_ string = "IVA"
 	this.Type = &type_
 	var factor string = "Tasa"

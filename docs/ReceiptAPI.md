@@ -73,7 +73,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret Test Key](../README.md#Secret Test Key), [Secret Live Key](../README.md#Secret Live Key)
+[secretTestKey](../README.md#secretTestKey), [secretLiveKey](../README.md#secretLiveKey)
 
 ### HTTP request headers
 
@@ -139,7 +139,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret Test Key](../README.md#Secret Test Key), [Secret Live Key](../README.md#Secret Live Key)
+[secretTestKey](../README.md#secretTestKey), [secretLiveKey](../README.md#secretLiveKey)
 
 ### HTTP request headers
 
@@ -205,7 +205,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -275,7 +275,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret Test Key](../README.md#Secret Test Key), [Secret Live Key](../README.md#Secret Live Key)
+[secretTestKey](../README.md#secretTestKey), [secretLiveKey](../README.md#secretLiveKey)
 
 ### HTTP request headers
 
@@ -345,7 +345,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret Test Key](../README.md#Secret Test Key), [Secret Live Key](../README.md#Secret Live Key)
+[secretTestKey](../README.md#secretTestKey), [secretLiveKey](../README.md#secretLiveKey)
 
 ### HTTP request headers
 
@@ -359,7 +359,7 @@ Name | Type | Description  | Notes
 
 ## InvoiceReceipt
 
-> Invoice InvoiceReceipt(ctx).InvoiceReceiptInput(invoiceReceiptInput).Execute()
+> Invoice InvoiceReceipt(ctx, receiptId).InvoiceReceiptInput(invoiceReceiptInput).Execute()
 
 Facturar recibo
 
@@ -378,11 +378,12 @@ import (
 )
 
 func main() {
+    receiptId := "receiptId_example" // string | ID del objeto a obtener
     invoiceReceiptInput := *openapiclient.NewInvoiceReceiptInput(openapiclient.InvoiceCommonInputProperties_allOf_customer{CustomerCreateInput: openapiclient.NewCustomerCreateInput(*openapiclient.NewCustomerPropertiesAllOfAddress())}) // InvoiceReceiptInput |  (optional)
 
     configuration := openapiclient.NewConfiguration()
     apiClient := openapiclient.NewAPIClient(configuration)
-    resp, r, err := apiClient.ReceiptAPI.InvoiceReceipt(context.Background()).InvoiceReceiptInput(invoiceReceiptInput).Execute()
+    resp, r, err := apiClient.ReceiptAPI.InvoiceReceipt(context.Background(), receiptId).InvoiceReceiptInput(invoiceReceiptInput).Execute()
     if err != nil {
         fmt.Fprintf(os.Stderr, "Error when calling `ReceiptAPI.InvoiceReceipt``: %v\n", err)
         fmt.Fprintf(os.Stderr, "Full HTTP response: %v\n", r)
@@ -395,6 +396,10 @@ func main() {
 ### Path Parameters
 
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+**ctx** | **context.Context** | context for authentication, logging, cancellation, deadlines, tracing, etc.
+**receiptId** | **string** | ID del objeto a obtener | 
 
 ### Other Parameters
 
@@ -403,6 +408,7 @@ Other parameters are passed through a pointer to a apiInvoiceReceiptRequest stru
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
+
  **invoiceReceiptInput** | [**InvoiceReceiptInput**](InvoiceReceiptInput.md) |  | 
 
 ### Return type
@@ -411,7 +417,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret Test Key](../README.md#Secret Test Key), [Secret Live Key](../README.md#Secret Live Key)
+[secretTestKey](../README.md#secretTestKey), [secretLiveKey](../README.md#secretLiveKey)
 
 ### HTTP request headers
 
@@ -485,7 +491,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret Test Key](../README.md#Secret Test Key), [Secret Live Key](../README.md#Secret Live Key)
+[secretTestKey](../README.md#secretTestKey), [secretLiveKey](../README.md#secretLiveKey)
 
 ### HTTP request headers
 
@@ -557,7 +563,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret Test Key](../README.md#Secret Test Key), [Secret Live Key](../README.md#Secret Live Key)
+[secretTestKey](../README.md#secretTestKey), [secretLiveKey](../README.md#secretLiveKey)
 
 ### HTTP request headers
 

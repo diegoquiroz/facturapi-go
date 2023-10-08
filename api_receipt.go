@@ -560,6 +560,7 @@ func (a *ReceiptAPIService) GetReceiptExecute(r ApiGetReceiptRequest) (*Receipt,
 type ApiInvoiceReceiptRequest struct {
 	ctx context.Context
 	ApiService *ReceiptAPIService
+	receiptId string
 	invoiceReceiptInput *InvoiceReceiptInput
 }
 
@@ -583,12 +584,14 @@ Una vez facturado, el `status` del recibo cambiará a `"invoiced_to_customer"`.
 
 
  @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
+ @param receiptId ID del objeto a obtener
  @return ApiInvoiceReceiptRequest
 */
-func (a *ReceiptAPIService) InvoiceReceipt(ctx context.Context) ApiInvoiceReceiptRequest {
+func (a *ReceiptAPIService) InvoiceReceipt(ctx context.Context, receiptId string) ApiInvoiceReceiptRequest {
 	return ApiInvoiceReceiptRequest{
 		ApiService: a,
 		ctx: ctx,
+		receiptId: receiptId,
 	}
 }
 
@@ -608,6 +611,7 @@ func (a *ReceiptAPIService) InvoiceReceiptExecute(r ApiInvoiceReceiptRequest) (*
 	}
 
 	localVarPath := localBasePath + "/receipts/{receipt_id}/invoice"
+	localVarPath = strings.Replace(localVarPath, "{"+"receipt_id"+"}", url.PathEscape(parameterValueToString(r.receiptId, "receiptId")), -1)
 
 	localVarHeaderParams := make(map[string]string)
 	localVarQueryParams := url.Values{}

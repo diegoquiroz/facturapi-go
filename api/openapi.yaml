@@ -371,8 +371,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Listar clientes
       tags:
       - customer
@@ -465,8 +465,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Crear cliente
       tags:
       - customer
@@ -555,8 +555,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Eliminar cliente
       tags:
       - customer
@@ -608,8 +608,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Obtener cliente por ID
       tags:
       - customer
@@ -664,8 +664,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Editar cliente
       tags:
       - customer
@@ -758,7 +758,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
+      - secretLiveKey: []
       summary: Validar información fiscal
       tags:
       - customer
@@ -815,8 +815,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Listar productos
       tags:
       - product
@@ -886,8 +886,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Crear producto
       tags:
       - product
@@ -963,8 +963,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Eliminar producto
       tags:
       - product
@@ -1016,8 +1016,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Obtener producto por ID
       tags:
       - product
@@ -1072,8 +1072,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Editar producto
       tags:
       - product
@@ -1201,8 +1201,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Listar facturas
       tags:
       - invoice
@@ -1313,8 +1313,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Crear factura (CFDI 4.0)
       tags:
       - invoice
@@ -1511,8 +1511,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Cancelar factura
       tags:
       - invoice
@@ -1578,8 +1578,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Obtener factura por ID
       tags:
       - invoice
@@ -1633,8 +1633,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Descargar acuse de cancelación
       tags:
       - invoice
@@ -1706,8 +1706,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Descargar factura
       tags:
       - invoice
@@ -1802,8 +1802,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Enviar factura por correo electrónico
       tags:
       - invoice
@@ -1927,8 +1927,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Listar recibos
       tags:
       - receipt
@@ -2034,7 +2034,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Crear recibo
       tags:
       - receipt
@@ -2143,8 +2143,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Cancelar recibo
       tags:
       - receipt
@@ -2196,8 +2196,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Obtener recibo por ID
       tags:
       - receipt
@@ -2250,8 +2250,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Descargar PDF
       tags:
       - receipt
@@ -2325,8 +2325,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Enviar recibo por correo electrónico
       tags:
       - receipt
@@ -2401,6 +2401,15 @@ paths:
 
         Una vez facturado, el `status` del recibo cambiará a `"invoiced_to_customer"`.
       operationId: invoiceReceipt
+      parameters:
+      - description: ID del objeto a obtener
+        explode: false
+        in: path
+        name: receipt_id
+        required: true
+        schema:
+          type: string
+        style: simple
       requestBody:
         $ref: '#/components/requestBodies/ReceiptInvoice'
       responses:
@@ -2419,8 +2428,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Facturar recibo
       tags:
       - receipt
@@ -2489,8 +2498,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Crear factura global
       tags:
       - receipt
@@ -2595,8 +2604,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Listar retenciones
       tags:
       - retention
@@ -2721,8 +2730,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Crear retención
       tags:
       - retention
@@ -2858,8 +2867,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Cancelar retención
       tags:
       - retention
@@ -2911,8 +2920,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Obtener retención por ID
       tags:
       - retention
@@ -2978,8 +2987,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Descargar retención
       tags:
       - retention
@@ -3074,8 +3083,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Enviar retención por correo electrónico
       tags:
       - retention
@@ -3187,7 +3196,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Listar organizaciones
       tags:
       - organization
@@ -3245,7 +3254,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Crear organización
       tags:
       - organization
@@ -3317,7 +3326,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Editar datos fiscales
       tags:
       - organization
@@ -3456,7 +3465,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Subir certificados (CSD)
       tags:
       - organization
@@ -3552,7 +3561,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Subir logotipo
       tags:
       - organization
@@ -3628,7 +3637,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Editar personalización
       tags:
       - organization
@@ -3726,7 +3735,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Editar config. recibos
       tags:
       - organization
@@ -3810,7 +3819,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Revisar dominio disponible
       tags:
       - organization
@@ -3884,7 +3893,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Elegir dominio de autofactura
       tags:
       - organization
@@ -3959,7 +3968,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Eliminar organización
       tags:
       - organization
@@ -4017,7 +4026,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Obtener organización por ID
       tags:
       - organization
@@ -4074,7 +4083,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Obtener Test Api Key
       tags:
       - organization
@@ -4134,7 +4143,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Renovar Test Api Key
       tags:
       - organization
@@ -4196,7 +4205,7 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret User Key: []
+      - secretUserKey: []
       summary: Renovar Live Api Key
       tags:
       - organization
@@ -4245,8 +4254,8 @@ paths:
         "502":
           description: Servicio temporalmente no disponible.
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Health check (Pulso)
       tags:
       - tools
@@ -4289,8 +4298,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Validar RFC
       tags:
       - tools
@@ -4349,8 +4358,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Producto/Servicio
       tags:
       - sat_keys
@@ -4416,8 +4425,8 @@ paths:
         "500":
           $ref: '#/components/responses/UnexpectedError'
       security:
-      - Secret Live Key: []
-      - Secret Test Key: []
+      - secretLiveKey: []
+      - secretTestKey: []
       summary: Unidades de medida
       tags:
       - sat_keys
@@ -4764,8 +4773,7 @@ components:
           example: 0.1
           type: number
         base:
-          default: 100% del subtotal
-          description: Base del impuesto
+          description: "Base del impuesto. Valor: 100% del subtotal."
           type: number
         type:
           description: Nombre del impuesto. Texto libre.
@@ -4791,8 +4799,7 @@ components:
           example: 0.16
           type: number
         base:
-          default: 100% del subtotal
-          description: Base del impuesto.
+          description: "Base del impuesto. Valor: 100% del subtotal."
           type: number
         type:
           default: IVA
@@ -8016,19 +8023,19 @@ components:
         type: object
       - $ref: '#/components/schemas/OrganizationAddress'
   securitySchemes:
-    Secret Live Key:
+    secretLiveKey:
       bearerFormat: sk_live_XXXXXXXXXXXX
       description: "Única por organización. Permite crear, obtener y administrar recursos\
         \ en ambiente Live para una organización en específico."
       scheme: bearer
       type: http
-    Secret Test Key:
+    secretTestKey:
       bearerFormat: sk_test_XXXXXXXXXXXX
       description: "Única por organización. Permite crear, obtener y administrar recursos\
         \ en ambiente Test para una organización en específico."
       scheme: bearer
       type: http
-    Secret User Key:
+    secretUserKey:
       bearerFormat: sk_user_XXXXXXXXXXXX
       description: Única por cuenta. Permite crear y configurar organizaciones pertenecientes
         a la cuenta del usuario.

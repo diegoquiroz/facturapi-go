@@ -75,7 +75,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -141,7 +141,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -211,7 +211,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -283,7 +283,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -355,7 +355,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -427,7 +427,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -499,7 +499,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -569,7 +569,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -639,7 +639,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -711,7 +711,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -781,7 +781,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -851,7 +851,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -923,7 +923,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 
@@ -995,7 +995,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret User Key](../README.md#Secret User Key)
+[secretUserKey](../README.md#secretUserKey)
 
 ### HTTP request headers
 

@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret Test Key](../README.md#Secret Test Key), [Secret Live Key](../README.md#Secret Live Key)
+[secretTestKey](../README.md#secretTestKey), [secretLiveKey](../README.md#secretLiveKey)
 
 ### HTTP request headers
 
@@ -137,7 +137,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Secret Test Key](../README.md#Secret Test Key), [Secret Live Key](../README.md#Secret Live Key)
+[secretTestKey](../README.md#secretTestKey), [secretLiveKey](../README.md#secretLiveKey)
 
 ### HTTP request headers
 

@@ -22,7 +22,7 @@ var _ MappedNullable = &LocalTax{}
 type LocalTax struct {
 	// Tasa del impuesto en fracción decimal.
 	Rate float32 `json:"rate"`
-	// Base del impuesto
+	// Base del impuesto. Valor: 100% del subtotal.
 	Base *float32 `json:"base,omitempty"`
 	// Nombre del impuesto. Texto libre.
 	Type string `json:"type"`
@@ -37,8 +37,6 @@ type LocalTax struct {
 func NewLocalTax(rate float32, type_ string) *LocalTax {
 	this := LocalTax{}
 	this.Rate = rate
-	var base float32 = 100% del subtotal
-	this.Base = &base
 	this.Type = type_
 	var withholding bool = false
 	this.Withholding = &withholding
@@ -50,8 +48,6 @@ func NewLocalTax(rate float32, type_ string) *LocalTax {
 // but it doesn't guarantee that properties required by API are set
 func NewLocalTaxWithDefaults() *LocalTax {
 	this := LocalTax{}
-	var base float32 = 100% del subtotal
-	this.Base = &base
 	var withholding bool = false
 	this.Withholding = &withholding
 	return &this

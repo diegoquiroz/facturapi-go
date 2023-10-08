@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 api/openapi.yaml
@@ -335,12 +334,4 @@ model_unit_catalog_search_result.go
 model_validate_customer_tax_info_200_response.go
 model_validate_customer_tax_info_200_response_errors_inner.go
 response.go
-test/api_customer_test.go
-test/api_invoice_test.go
-test/api_organization_test.go
-test/api_product_test.go
-test/api_receipt_test.go
-test/api_retention_test.go
-test/api_sat_keys_test.go
-test/api_tools_test.go
 utils.go
